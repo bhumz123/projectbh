@@ -1,4 +1,4 @@
-pip install easyocr
+
 import easyocr
 import re
 import pandas as pd

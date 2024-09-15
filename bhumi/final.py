@@ -103,7 +103,7 @@ def process_group(group, pattern):
     return group
 
 # Read the CSV file
-df = pd.read_csv('train.csv')
+df = pd.read_csv('test.csv')
 
 # Group by entity_name and apply the appropriate function
 result_df = pd.DataFrame()
